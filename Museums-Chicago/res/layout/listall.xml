@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layoutAnimation="@anim/layout_bottom_to_top_slide"
+  android:background="@drawable/background">
+		<TextView 
+			android:text="@+id/TextView01" 
+			android:id="@+id/_id"  
+			android:visibility="gone"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5sp"></TextView>
+		<TextView 
+			android:text="@+id/MuseumName" 
+			android:id="@+id/MuseumName" 
+			android:textSize="22dip"
+			android:textColor="@color/text_color"
+			android:layout_below="@id/_id"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:background="@color/opaqueMedium"></TextView>
+		<TextView 
+			android:text="@+id/MuseumAddress" 
+			android:id="@+id/MuseumAddress" 
+			android:textSize="18dip"
+			android:textColor="@color/color_white"
+			android:layout_below="@id/MuseumName" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:background="@color/opaqueMedium"></TextView>
+		<TextView 
+			android:text="@+id/TextView03" 
+			android:id="@+id/MuseumType" 
+			android:textColor="@color/color_white"
+			android:layout_below="@id/MuseumAddress" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:background="@color/opaqueMedium"></TextView>
+</RelativeLayout>

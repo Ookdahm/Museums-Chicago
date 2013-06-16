@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="background">#B93B8F</color>
+<color name="text_color">#C68E17</color>
+<color name="subText_color">#FFFFFF</color>
+<color name="opaqueDark">#AA000000</color>
+<color name="opaqueLight">#59000000</color>
+<color name="opaqueMedium">#85000000</color>
+<color name="color_white">#FFFFFF</color>
+<color name="keydown_color">#C9BE62</color>
+</resources>

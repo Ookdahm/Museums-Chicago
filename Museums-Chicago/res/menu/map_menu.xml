@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_compass" android:title="@string/my_location" android:id="@+id/Map_Menu_Me" android:visible="false"></item>
+    <item android:icon="@drawable/ic_menu_mapmode" android:title="@string/show_on_map" android:id="@+id/Map_Menu">
+        <menu>
+            <item android:id="@+id/Map_Menu_All" android:title="@string/maps_all"></item>
+            <item android:id="@+id/Map_Menu_Art" android:title="@string/maps_art"></item>
+            <item android:title="@string/maps_free" android:id="@+id/Map_Menu_Free"></item>
+            <item android:title="@string/maps_mansion" android:id="@+id/Map_Menu_Mansion"></item>
+            <item android:title="@string/maps_history" android:id="@+id/Map_Menu_History"></item>
+            <item android:title="@string/maps_science" android:id="@+id/Map_Menu_Science"></item>
+        </menu>
+    </item>
+    <item android:title="@string/sat_view" android:id="@+id/Sat_View" android:icon="@drawable/ic_menu_mylocation"></item>
+    <item android:title="@string/map_view" android:icon="@drawable/ic_menu_compass" android:id="@+id/Map_View"></item>
+    
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">Museums-Chicago</string>
+<string name="city_pass">City Pass</string>
+<string name="museum_community">Museum Community</string>
+<string name="tell_a_friend">Tell A Friend</string>
+<string name="citypass_url">http://www.citypass.com/philadelphia</string>
+<string name="mc_url">http://museum-community.blogspot.com</string>
+<string name="museums_in_email_subjectline">Museums in Philly </string>
+<string name="contact_us">Contact Us</string>
+<string name="museums_in_title">M U S E U M S   I N   P H I L L Y</string>
+<string name="search_days">Open On...</string>
+<string name="search_intern">Search For Internships</string>
+<string name="search_rental">Search For Rentals</string>
+<string name="sunday">Sunday</string>
+<string name="monday">Monday</string>
+<string name="tuesday">Tuesday</string>
+<string name="wednesday">Wednesday</string>
+<string name="thursday">Thursday</string>
+<string name="friday">Friday</string>
+<string name="saturday">Saturday</string>
+<string name="menu_more_apps">More Apps</string>
+<string name="tabs">Collections, Events, Membership &amp; Parking</string>
+
+<string name="show_on_map">Show On Map</string>
+<string name="maps_all">All Museums</string>
+<string name="maps_free">Free</string>
+<string name="maps_mansion">Historic Houses/Mansions</string>
+<string name="maps_art">Art</string>
+<string name="maps_history">History </string>
+<string name="maps_science">Science </string>
+<string name="my_location">My Location</string>
+<string name="toast_all">Displaying map of ALL museums</string>
+<string name="toast_art">Displaying map of all ART museums</string>
+<string name="toast_free">Displaying map of all FREE museums</string>
+<string name="toast_mansion">Displaying map of all HISTORIC HOUSES/MANSIONS</string>
+<string name="toast_history">Displaying map of all HISTORY museums</string>
+<string name="toast_science">Displaying map of all SCIENCE msueums</string>
+<string name="toast_more_options">Hit MENU for more options</string>
+<string name="sat_view">Satellite View</string>
+<string name="map_view">Map View</string>
+<style name="no_title_bar" parent="@android:style/Theme.NoTitleBar"></style>
+</resources>

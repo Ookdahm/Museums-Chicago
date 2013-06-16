@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.androidsfuture.museumschicago" android:versionName="2.0.5" android:versionCode="15">
+    <application android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar" android:icon="@drawable/museum_48">
+        <uses-library android:name="com.google.android.maps" />
+        <activity android:name=".Splash"
+                  android:label="@string/app_name" android:screenOrientation="portrait"
+                  android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+<activity android:name=".Tabs" android:configChanges="keyboard|keyboardHidden|orientation" android:screenOrientation="unspecified"></activity>
+<activity android:name=".Collections" android:configChanges="keyboard|keyboardHidden|orientation" android:screenOrientation="unspecified"></activity>
+<activity android:name=".Events" android:configChanges="keyboard|keyboardHidden|orientation" android:screenOrientation="unspecified"></activity>
+<activity android:name=".Membership" android:configChanges="keyboard|keyboardHidden|orientation" android:screenOrientation="unspecified"></activity>
+<activity android:name=".Parking" android:configChanges="keyboard|keyboardHidden|orientation" android:screenOrientation="unspecified"></activity>
+<!-- The application's publisher ID assigned by AdMob -->
+<meta-data android:value="a14c58d4ab57d36" android:name="ADMOB_PUBLISHER_ID"/>
+<activity android:name=".MuseumItem" android:configChanges="keyboard|keyboardHidden|orientation"></activity>
+
+
+<!-- AdMobActivity definition -->
+<activity android:name="com.admob.android.ads.AdMobActivity"
+android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+android:configChanges="orientation|keyboard|keyboardHidden" />
+
+<!-- Track Market installs -->          
+<receiver android:name="com.admob.android.ads.analytics.InstallReceiver"
+android:exported="true">
+            
+    
+<intent-filter>
+   <action android:name="com.android.vending.INSTALL_REFERRER" />
+</intent-filter>
+</receiver>
+<activity android:theme="@style/no_title_bar" android:name=".Maps" android:screenOrientation="unspecified" android:configChanges="keyboard|keyboardHidden|navigation|orientation"></activity>
+<activity android:theme="@style/no_title_bar" android:name=".MapsArt" android:screenOrientation="unspecified" android:configChanges="touchscreen|keyboard|keyboardHidden|navigation|orientation"></activity>
+<activity android:name=".MapsFree" android:screenOrientation="unspecified" android:configChanges="touchscreen|keyboard|keyboardHidden|navigation|orientation"></activity>
+<activity android:theme="@style/no_title_bar" android:name=".MapsHistory" android:screenOrientation="unspecified" android:configChanges="touchscreen|keyboard|keyboardHidden|navigation|orientation"></activity>
+<activity android:theme="@style/no_title_bar" android:name=".MapsMansion" android:screenOrientation="unspecified" android:configChanges="touchscreen|keyboard|keyboardHidden|navigation|orientation"></activity>
+<activity android:theme="@style/no_title_bar" android:name=".MapsScience" android:screenOrientation="unspecified" android:configChanges="touchscreen|keyboard|keyboardHidden|navigation|orientation"></activity>
+<activity android:screenOrientation="portrait" android:theme="@style/no_title_bar" android:name=".Main"></activity>
+
+</application>
+    <uses-sdk android:minSdkVersion="4" />
+
+
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+</manifest> 

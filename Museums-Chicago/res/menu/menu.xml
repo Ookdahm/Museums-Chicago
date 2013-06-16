@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:icon="@drawable/ic_menu_mapmode" android:title="@string/show_on_map" android:id="@+id/MapMenu">
+    <menu>
+    	<item android:title="@string/maps_all" android:id="@+id/Maps_All"></item>
+    	<item android:id="@+id/Maps_Art" android:title="@string/maps_art"></item><item android:id="@+id/Maps_Free" android:title="@string/maps_free"></item>
+    	
+		<item android:id="@+id/Maps_Mansion" android:title="@string/maps_mansion"></item>
+		<item android:id="@+id/Maps_History" android:title="@string/maps_history"></item>
+		<item android:id="@+id/Maps_Science" android:title="@string/maps_science"></item>
+    </menu>
+</item>
+<item android:id="@+id/Search_Open" android:title="@string/search_days" android:icon="@drawable/ic_menu_myplaces">
+	<menu>
+		<item android:id="@+id/sunday" android:title="@string/sunday"></item>
+		<item android:id="@+id/monday" android:title="@string/monday"></item>
+		<item android:id="@+id/tuesday" android:title="@string/tuesday"></item>
+		<item android:id="@+id/wednesday" android:title="@string/wednesday"></item>
+		<item android:id="@+id/thursday" android:title="@string/thursday"></item>
+		<item android:id="@+id/friday" android:title="@string/friday"></item>
+		<item android:id="@+id/saturday" android:title="@string/saturday"></item>
+	</menu>
+</item>
+<item android:title="@string/city_pass" android:id="@+id/CityPass" android:icon="@drawable/ic_menu_login"></item>
+
+<item android:id="@+id/Search_Rental" android:title="@string/search_rental" android:icon="@drawable/ic_menu_search"></item><item android:title="@string/museum_community" android:id="@+id/MC_Menu" android:icon="@drawable/ic_menu_allfriends"></item>
+<item android:id="@+id/Search_Intern" android:title="@string/search_intern" android:icon="@drawable/ic_menu_friendslist"></item>
+<item android:title="@string/menu_more_apps" android:id="@+id/Menu_Apps"></item>
+<item android:title="@string/tell_a_friend" android:id="@+id/Tell_A_Friend" android:icon="@drawable/ic_menu_cc"></item>
+<item android:id="@+id/Contact_Us" android:title="@string/contact_us" android:icon="@drawable/ic_menu_send"></item>
+</menu>

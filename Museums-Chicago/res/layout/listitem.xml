@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:myapp="http://schemas.android.com/apk/res/com.androidsfuture.museumschicago"  
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:background="@drawable/chicago_fountain">
+  
+
+	
+<TextView 
+	android:text="The Wagner Free Institute of Science of Philadelphia" 
+	android:id="@+id/ListItem_Name" 
+	android:textSize="23sp"
+	android:textColor="@color/text_color"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:padding="10dip"
+	android:background="@color/opaqueMedium"></TextView>
+
+<ScrollView 
+	android:id="@+id/ScrollView01" 
+	android:layout_below="@id/ListItem_Name" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginBottom="37dip"
+	android:background="@color/opaqueMedium">
+	
+
+		<RelativeLayout 
+			android:id="@+id/RelativeLayout01" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			
+			android:padding="18dip">
+			
+				<TextView 
+					android:text="Address:" 
+					android:id="@+id/ListItem_Address_Title" 
+					android:textSize="19sp"
+					android:textColor="@color/text_color"
+					android:layout_below="@id/ListItem_Name" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"></TextView>
+				<TextView 
+					android:text="1900 Pattison Avenue, Philadelphia, PA 19145" 
+					android:id="@+id/ListItem_Address" 
+					android:textSize="16sp"
+					android:textColorLink="@color/color_white"
+					android:layout_below="@id/ListItem_Address_Title" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:paddingBottom="5dip"
+					android:linksClickable="true"></TextView>
+				<TextView 
+					android:text="Phone:" 
+					android:id="@+id/ListItem_Phone_Title" 
+					android:textSize="19sp"
+					android:textColor="@color/text_color"
+					android:layout_below="@id/ListItem_Address" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"></TextView>
+				<TextView 
+					android:text="(215) 389-1776" 
+					android:id="@+id/ListItem_Phone" 
+					android:textSize="16sp"
+					
+					android:layout_below="@id/ListItem_Phone_Title" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:paddingBottom="5dip"
+					android:linksClickable="true"></TextView>
+				<TextView 
+					android:text="Email:" 
+					android:id="@+id/ListItem_Email_Title" 
+					android:textSize="19sp"
+					android:textColor="@color/text_color"
+					android:paddingTop="5dip"
+					android:layout_below="@id/ListItem_Phone" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"></TextView>
+				<TextView 
+					android:text="info@americanswedish.org" 
+					android:id="@+id/ListItem_Email" 
+					android:textSize="16sp"
+					android:textColorLink="@color/color_white"
+					android:layout_below="@id/ListItem_Email_Title" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:paddingBottom="8dip"
+					android:linksClickable="true"></TextView>
+						<View 
+							android:id="@+id/View01" 
+							android:background="@color/text_color"
+							android:layout_below="@id/ListItem_Email" 
+							android:layout_width="wrap_content" 
+							android:layout_height="1dip"></View>
+				<TextView 
+					android:text="Hours:" 
+					android:id="@+id/ListItem_Hours_Title" 
+					android:textSize="19sp"
+					android:textColor="@color/text_color"
+					android:layout_below="@id/ListItem_Email" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:paddingTop="8dip"></TextView>
+				<TextView 
+					android:text="Tuesday-Friday, 10 to 4, Saturday-Sunday, 12 to 4 " 
+					android:id="@+id/ListItem_Hours" 
+					android:textSize="16sp"
+					android:textColor="@color/color_white"
+					android:layout_below="@id/ListItem_Hours_Title" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:paddingBottom="5dip"></TextView>
+				<TextView 
+					android:text="Admission:" 
+					android:id="@+id/ListItem_Admission_Title" 
+					android:textSize="19sp"
+					android:textColor="@color/text_color"
+					android:layout_below="@id/ListItem_Hours" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"></TextView>
+				<TextView 
+					android:text="Adults: $6, Seniors and Students: $5, Children 12-18: $5, Children under 12: FREE, ASHM Members: FREE, AAA Members save $1" 
+					android:id="@+id/ListItem_Admission" 
+					android:textSize="16sp"
+					android:textColor="@color/color_white"
+					android:layout_below="@id/ListItem_Admission_Title" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:paddingBottom="8dip"></TextView>
+						<View 
+							android:id="@+id/View02" 
+							android:background="@color/text_color"
+							android:layout_below="@id/ListItem_Admission" 
+							android:layout_width="wrap_content" 
+							android:layout_height="1dip"></View>
+						<TableLayout 
+							android:id="@+id/TableLayout01" 
+							android:layout_below="@id/View02" 
+							android:layout_width="wrap_content" 
+							android:layout_height="wrap_content"
+							android:paddingTop="8dip"
+							android:paddingBottom="8dip">
+								<TableRow 
+									android:id="@+id/TableRow01" 
+									android:layout_width="wrap_content" 
+									android:layout_height="wrap_content">
+										<TextView 
+											android:text="Available for rental:" 
+											android:id="@+id/ListItem_Rental_Title" 
+											android:textSize="19sp"
+											android:textColor="@color/text_color"
+											android:layout_width="wrap_content" 
+											android:layout_height="wrap_content"
+											android:paddingRight="10dip"></TextView>
+										<TextView 
+											android:text="Yes" 
+											android:id="@+id/ListItem_Rental" 
+											android:textSize="16sp"
+											android:textColor="@color/color_white"
+											android:layout_width="wrap_content" 
+											android:layout_height="wrap_content"></TextView></TableRow>
+								<TableRow 
+									android:id="@+id/TableRow02" 
+									android:layout_width="wrap_content" 
+									android:layout_height="wrap_content">
+								<TextView 
+									android:text="Sponsors interns:" 
+									android:id="@+id/ListItem_Intern_Title" 
+									android:textSize="19sp"
+									android:textColor="@color/text_color"
+									android:layout_width="wrap_content" 
+									android:layout_height="wrap_content"></TextView>
+								<TextView 
+									android:text="Not specified" 
+									android:id="@+id/ListItem_Intern" 
+									android:textSize="16sp"
+									android:textColor="@color/color_white"
+									android:layout_width="wrap_content" 
+									android:layout_height="wrap_content"></TextView></TableRow>
+				</TableLayout>
+				<View 
+					android:id="@+id/View03" 
+					android:background="@color/text_color"
+					android:layout_below="@id/TableLayout01" 
+					android:layout_width="wrap_content" 
+					android:layout_height="1dip"></View>				
+				
+				<TableLayout 
+					android:id="@+id/TableLayout02" 
+					android:layout_below="@id/View03" 
+					android:layout_width="fill_parent" 
+					android:layout_height="wrap_content"
+					android:paddingTop="8dip"
+					android:paddingBottom="8dip">
+						<TableRow 
+							android:id="@+id/TableRow03" 
+							android:layout_width="fill_parent" 
+							android:layout_height="wrap_content">
+								<TextView 
+									android:text="Touch *HERE* for Collections, Events, Membership and Parking info" 
+									android:id="@+id/ListItem_WebViewLink" 
+									android:textSize="16sp"
+									android:textColorLink="@color/color_white"
+									android:layout_width="wrap_content" 
+									android:layout_height="wrap_content"
+									android:linksClickable="true"
+									android:visibility="gone"></TextView>
+								<Button 
+									android:id="@+id/TabsButton"
+									android:text="@string/tabs" 
+									android:textSize="12sp"
+									android:layout_width="fill_parent"
+									android:paddingLeft="25dp"
+									android:paddingRight="25dp"></Button>
+						</TableRow>
+						<TableRow 
+							android:id="@+id/TableRow03" 
+							android:layout_width="wrap_content" 
+							android:layout_height="wrap_content">
+							
+								<TextView 
+    								android:id="@+id/ListItem_Collection" 
+    								android:visibility="gone"
+    								android:layout_width="wrap_content" 
+    								android:layout_height="wrap_content"></TextView>
+    								
+    							<TextView 
+    								android:id="@+id/ListItem_Events" 
+    								android:visibility="gone"
+    								android:layout_width="wrap_content" 
+    								android:layout_height="wrap_content"></TextView>
+    							<TextView 
+    								android:id="@+id/ListItem_Membership" 
+    								android:visibility="gone"
+    								android:layout_width="wrap_content" 
+    								android:layout_height="wrap_content"></TextView>
+    							<TextView 
+    								android:id="@+id/ListItem_Parking" 
+    								android:visibility="gone"
+    								android:layout_width="wrap_content" 
+    								android:layout_height="wrap_content"></TextView>
+							
+						</TableRow>
+						<TableRow 
+							android:id="@+id/TableRow04" 
+							android:layout_width="wrap_content" 
+							android:layout_height="wrap_content"
+							android:paddingBottom="8dip"
+							android:paddingTop="25dip">
+								<TextView 
+									android:text="@+id/TextView01" 
+									android:id="@+id/ListItem_Website" 
+									android:layout_width="wrap_content" 
+									android:layout_height="wrap_content"
+									android:linksClickable="true"></TextView>
+						</TableRow>
+			</TableLayout>
+
+		
+		
+</RelativeLayout>
+		
+</ScrollView>
+<com.admob.android.ads.AdView
+	android:id="@+id/ad"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_alignParentBottom="true"
+	myapp:backgroundColor="#000000"
+	myapp:primaryTextColor="#FFFFFF"
+	myapp:secondaryTextColor="#CCCCCC"/>
+</RelativeLayout>
